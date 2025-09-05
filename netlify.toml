@@ -3,7 +3,7 @@
   command = "npm install"
 
 [[redirects]]
-  from = "/proxy/*"
+  from = "/*"
   to = "/.netlify/functions/telegram-proxy/:splat"
   status = 200
   force = true
