@@ -1,0 +1,11 @@
+{
+  "name": "telegram-proxy-netlify",
+  "version": "1.0.0",
+  "main": "netlify/functions/telegram-proxy.js",
+  "scripts": {
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.12"
+  }
+}

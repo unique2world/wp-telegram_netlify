@@ -1,0 +1,9 @@
+[build]
+  functions = "netlify/functions"
+  command = "npm install"
+
+[[redirects]]
+  from = "/proxy/*"
+  to = "/.netlify/functions/telegram-proxy/:splat"
+  status = 200
+  force = true
